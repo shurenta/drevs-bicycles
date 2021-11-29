@@ -1,24 +1,3 @@
 .page-body {
   position: relative;
 }
-
-.page-body__background {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 825px;
-  z-index: -1;
-}
-
-@media (max-width: $tablet-width) {
-  .page-body__background {
-     height: 50%;
-  }
-}
-
-@media (max-width: $mobile-width-only) {
-  .page-body__background {
-    object-fit: cover;
-  }
-}

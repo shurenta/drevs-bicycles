@@ -32,11 +32,12 @@
 
 @media (max-width: $mobile-width-only) {
   .site-menu {
-    padding: 0;
-    padding-top: 100px;
-    width: 100%;
-    background-color:  $basik-white;
     display: block;
+    width: 100%;
+    padding: 0;
+    padding-right: 10px;
+    padding-top: 100px;
+    background-color: $basik-white;
     &::before {
       display: none;
     }
@@ -51,9 +52,12 @@
 
   .site-menu__item {
     position: relative;
+    padding-right: 40px;
     padding-top: 17px;
-    padding-bottom: 40px;
+    padding-bottom: 17px;
+    margin-bottom: 40px;
     padding-left: 16px;
+    width: 100%;
     background-color: $background-color-nav;
 
     &::before {
@@ -62,7 +66,7 @@
       position: absolute;
       background-image: url("../img/icon-menu.png");
       background-repeat: no-repeat;
-      left: 289px;
+      left: 90%;
       top: 23px;
       width: 25px;
       height: 25px;
